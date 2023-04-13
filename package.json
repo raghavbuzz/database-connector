@@ -1,0 +1,14 @@
+{
+  "name": "database-connector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-client": "cd ./client && npm install",
+    "install-server": "cd ./server && npm install",
+    "deploy": "npm run build --prefix client && npm start --prefix server"    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
